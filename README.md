@@ -29,7 +29,7 @@
 | `/lib64`      | 64-bit **shared libraries**, mainly used on 64-bit systems.                       |
 | `/lost+found` | Recovered files from disk errors or crashes (used by `fsck`).                     |
 | `/media`      | Temporary mount point for **external media** (e.g., USB drives, CDs).             |
-| `/export`     | Commonly used as a mount point for **NFS exports** (not standard on all systems). |
+| `/export`     | Directory for **shared file systems**, commonly used with NFS.        |
 
 
 ---
