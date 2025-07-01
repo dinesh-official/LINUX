@@ -24,7 +24,12 @@
 | `/cgroup` | Control groups filesystem. Used for process/resource management (e.g., CPU, memory limits). |
 | `/dev`    | Device files representing hardware or virtual devices (e.g., `/dev/sda`, `/dev/null`).      |
 | `/boot`   | Boot-related files such as the Linux kernel (`vmlinuz`), `initrd`, and GRUB configuration.  |
-| `/etc`    | System configuration files (e.g., user accounts, services, network settings).          |
+| `/etc`    | System configuration files (e.g., user accounts, services, network settings).               |
+| `/lib`        | Essential **shared libraries** for binaries in `/bin` and `/sbin`.                |
+| `/lib64`      | 64-bit **shared libraries**, mainly used on 64-bit systems.                       |
+| `/lost+found` | Recovered files from disk errors or crashes (used by `fsck`).                     |
+| `/media`      | Temporary mount point for **external media** (e.g., USB drives, CDs).             |
+| `/export`     | Commonly used as a mount point for **NFS exports** (not standard on all systems). |
 
 
 ---
