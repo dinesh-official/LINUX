@@ -10,6 +10,18 @@
 * `/opt` – **Optional or third-party software** packages (e.g., proprietary software, add-ons).
 * `/tmp` – **Temporary files**. Cleared on reboot. Often used by programs during execution.
 * `/usr` – **User-related programs** and data. Contains read-only user utilities and applications (`/usr/bin`, `/usr/lib`, etc.).
+* /var - varible data , most notably log files
+
+
+### 📂 Comparative Directory Listing
+| Directory | Description                                                                                 |
+| --------- | ------------------------------------------------------------------------------------------- |
+| `/bin`    | Essential binaries used in both single-user and multi-user environments.                    |
+| `/cdrom`  | Temporary mount point for CD-ROMs. May not be present on all systems.                       |
+| `/cgroup` | Control groups filesystem. Used for process/resource management (e.g., CPU, memory limits). |
+| `/dev`    | Device files representing hardware or virtual devices (e.g., `/dev/sda`, `/dev/null`).      |
+| `/boot`   | Boot-related files such as the Linux kernel (`vmlinuz`), `initrd`, and GRUB configuration.  |
+
 
 ---
 
